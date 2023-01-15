@@ -15,10 +15,10 @@ c = 8
 
 //Tipos más complejos
 //Lista de cadenas de texto
-let listaTareas: string[] = ['tarea1', 'tarea2', 'tarea3']
+const listaTareas: string[] = ['tarea1', 'tarea2', 'tarea3']
 
 //combinación de tipos en listas
-let valores: (string | number | boolean)[] = [false, 'un texto', true, 17]
+const valores: (string | number | boolean)[] = [false, 'un texto', true, 17]
 
 //enumerados
 enum Estados {
@@ -42,7 +42,7 @@ let estadoTarea2: Estados = Estados.Completado //2
 //enumerados: 
 enum Estados3 {
     "Completado" = 'C',
-    "Incompleto" = 'I',  
+    "Incompleto" = 'I',
     "Pendiente" = 'P'
 }
 
